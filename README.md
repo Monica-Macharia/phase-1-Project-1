@@ -13,7 +13,7 @@ This is a phase-1 project that brings together three pillar of software developm
 
 // Some interactivity is required. This could be as simple as adding a "like" button or adding comments. These interactions do not need to persist after reloading the page.
 
-// Follow good coding practices. Keep your code DRY (Do not repeat yourself) by utilizing functions to abstract repetitive code.
+// Follow good coding practices. Keep your code DRY by utilizing functions to abstract repetitive code.
 
 ## Goals of the project
 // Access data from a public API using GET request and use it to update the DOM.
