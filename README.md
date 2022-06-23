@@ -1,6 +1,9 @@
 # phase-1 Project 1
 Author Name: Nyaguthii Macharia
 
+## License
+MIT (c) 2022 public-apis
+
 ## Description of the project.
 This is a phase-1 project that brings together three pillar of software development to create a simple and fun application.
 
