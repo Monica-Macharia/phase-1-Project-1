@@ -31,11 +31,10 @@ This is a phase-1 project that brings together three pillar of software developm
 
 // I will use a public API https://nekos.best/api/v2/hug?amount=7 to build the frontend of the app.
 
-## EndPoints
+## EndPoints.
 I will use an endpoint with 7 GiFs and names as values.
 
-## Deliverables
-Project goals include:
+## Delivarables
 // Only use one page HTML.(no redirects)
 
 // use three event listeners (click, submit, & mouseover) 
