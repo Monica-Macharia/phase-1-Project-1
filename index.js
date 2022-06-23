@@ -2,7 +2,6 @@
 const baseURL = "https://nekos.best/api/v2/hug?amount=7"
 const images = document.getElementById("meme-images")
 
-
 //users inputs intergration into the DOM
 const formInputs = document.querySelector("#create-meme")
    formInputs.addEventListener("submit", (e) => {
