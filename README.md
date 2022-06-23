@@ -1,10 +1,10 @@
 # phase-1 Project 1
 Author Name: Nyaguthii Macharia
 
-## Description of the project
+## Description of the project.
 This is a phase-1 project that brings together three pillar of software development to create a simple and fun application.
 
-## Project Instructions
+## Project Instructions.
 // Your app must be a HTML/CSS and Javascript frontend that accesses data from a public API. All interactions between the client and the API should be handled asynchronously and use JSON as the communication format.
 
 // Your entire app must run on a single page. There should be NO redirects. In other words, your project will contain a single HTML file.
@@ -15,7 +15,7 @@ This is a phase-1 project that brings together three pillar of software developm
 
 // Follow good coding practices. Keep your code DRY by utilizing functions to abstract repetitive code.
 
-## Goals of the project
+## Goals of the project.
 // Access data from a public API using GET request and use it to update the DOM.
 
 // Listen for user events and update the DOM accordingly.
