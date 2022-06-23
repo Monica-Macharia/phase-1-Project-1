@@ -26,6 +26,8 @@ This is a phase-1 project that brings together three pillar of software developm
 
 // Link HTML, CSS, and Javascript.
 
+//Add to github pages.
+
 ## Introduction
 // Today I will build an app that displays different Anime's GiFs and respective names.
 
