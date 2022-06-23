@@ -39,7 +39,7 @@ function tagCreator(data){
    document.querySelector("#meme-name").innerHTML = data.anime_name;
 
 })
-
+//to display all a loop is necessary 
 }
 const homeImages = document.querySelector("#meme-images")
 //an Iterator function called displayimages
