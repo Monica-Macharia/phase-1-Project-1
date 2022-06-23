@@ -4,48 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Meme Generator </title>
-    <link rel="stylesheet" href="./style.css" />
-    <script defer src="./index.js"></script>
+    <title> Anime Collection </title>
+    <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
     <header>
-        <h2> Meme Generator </h2>
-        <h3> Click for a Meme :) </h3>
+        <h2> Anime Collection </h2>
+        <h3> Guess the Anime </h3>
     </header>
 
-    <div id= "name-buttons"> 
-        <!--insert names in buttons or make a list and src from the API in Js-->
-       
-        <!--each name should enter into a new text-box when loaded-->
+    <div id= "meme-images"> 
+        <!--insert images and src from the API in Js-->
+        <!--each image should enter into a new text-box when loaded-->
         <!--add 'click' in JS-->
-        <div>
+    </div>
+    <div id="instructions">
+        <h3> Click the GIF </h3> 
+    </div>
 
-
-        <div id = "display-box"> clicked meme show up here!
-        <!--img tags in js will be stored here-->
-        <p id = "meme-text"> bottom text will show up here</p>
+    <div id = "display-box"> 
+        <img class ="load-image" />
+        <h3 id= "meme-name"></h3>
         </div>
 
         <!--comment section-->
-        <div id="heart">Like!<div class = "icon">&#x2661
+        <!--<div id="heart">Like!<div class = "icon">&#x2661
         </div>
+        </div>-->
+        <div id="star-rating"> How would you rate the anime?
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+
         </div>
 
                    
         <!--Create your meme!-->
         <form id= "create-meme">
-            <h3> Create a Meme! </h3>
+            <h3> Add to the Collection :) </h3>
             <label for="name">Name:</label>
             <input type="text" name="name" id="user-name"/>
-            <label for="image">Image:</label>
-            <input type="text" name="image" id="user-image"/>
-            <label for="text">BottomText:</label>
-            <input type="text" name="bottom-text" id= "user-bottom-text">
+            <label for="image">URL:</label>
+            <input type="text" name="URL" id="user-image"/>-->
             <input type="submit" value= "Let's see!"/>
         </form>
        
-        
+        <script type="text/javascript" src="./index.js" charset="utf-8"></script>      
 
 </body>
 </html>
