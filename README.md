@@ -5,7 +5,7 @@ Author Name: Nyaguthii Macharia
 This is a phase-1 project that brings together three pillar of software development to create a simple and fun application.
 
 ## Project Instructions
-// Your app must be a HTML/CSS/JS frontend that accesses data from a public API. All interactions between the client and the API should be handled asynchronously and use JSON as the communication format.
+// Your app must be a HTML/CSS and Javascript frontend that accesses data from a public API. All interactions between the client and the API should be handled asynchronously and use JSON as the communication format.
 
 // Your entire app must run on a single page. There should be NO redirects. In other words, your project will contain a single HTML file.
 
