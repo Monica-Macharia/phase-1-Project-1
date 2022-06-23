@@ -1,5 +1,8 @@
 # phase-1 Project 1
-Author Name: Nyaguthii Macharia
+Author Name: Monica Nyaguthii
+
+## Live Link to Github Pages
+https://monica-macharia.github.io/phase-1-Project-1/
 
 ## License
 MIT (c) 2022 public-apis
