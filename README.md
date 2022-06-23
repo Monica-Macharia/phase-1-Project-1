@@ -20,7 +20,7 @@ This is a phase-1 project that brings together three pillar of software developm
 
 // Listen for user events and update the DOM accordingly.
 
-// Enable users' interactivity within the app.
+// Enable users' interactivity within the application.
 
 // Use DRY code.
 
