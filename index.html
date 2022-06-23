@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Anime Collection </title>
+    <title> Anime Collection</title>
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
     <header>
-        <h2> Anime Collection </h2>
-        <h3> Guess the Anime </h3>
+        <h1> Anime Collection </h1>
+        <h2> Can you Guess the Name of the Anime? </h2>
+       <button><h3 id="steps"><em> Click a Gif when done </em></h3></button>
     </header>
 
     <div id= "meme-images"> 
@@ -19,39 +20,30 @@
         <!--add 'click' in JS-->
     </div>
     <div id="instructions">
-        <h3> Click the GIF </h3> 
+        <h2><em> ...and the Name is...</em></h2> 
     </div>
-
+    
+<!--Clicked gifs show up here-->
     <div id = "display-box"> 
         <img class ="load-image" />
-        <h3 id= "meme-name"></h3>
+        <h2 id= "meme-name"></h2>
         </div>
 
         <!--comment section-->
-        <!--<div id="heart">Like!<div class = "icon">&#x2661
-        </div>
-        </div>-->
-        <div id="star-rating"> How would you rate the anime?
-            <button class="star">&#9734;</button>
-            <button class="star">&#9734;</button>
-            <button class="star">&#9734;</button>
-            <button class="star">&#9734;</button>
-            <button class="star">&#9734;</button>
-
-        </div>
-
-                   
+        <div id="heart">Like!</div>
+        <button id = "love" class= "icon"><i class="fas fa-heart"></i></button>
+                          
         <!--Create your meme!-->
         <form id= "create-meme">
-            <h3> Add to the Collection :) </h3>
+            <h2> Add to the Collection :) </h2>
             <label for="name">Name:</label>
             <input type="text" name="name" id="user-name"/>
             <label for="image">URL:</label>
             <input type="text" name="URL" id="user-image"/>-->
-            <input type="submit" value= "Let's see!"/>
+            <input type="submit" value= "Let's see!" id="add"/>
         </form>
        
         <script type="text/javascript" src="./index.js" charset="utf-8"></script>      
-
+        <script src ="https://kit.fontawesome.com/f6dcf461c1.js"crossorigin= "anonymous"></script>
 </body>
 </html>

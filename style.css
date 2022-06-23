@@ -1,17 +1,27 @@
 *{
     text-align: center;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: powderblue;
    
 }
-body{
+h1{
+    color: blue
+}
+#steps{
+    color: fuchsia;
+    font-size: 20px;
+}
+#create-meme h2{
+    color: blue;
+}
+header body{
     border-style: solid;
     border-width: 4px;
-    height: 900px;
-    border-color: darkmagenta;
+    height: 1050px;
     border-radius: 15px;
     padding: 3px;
-    
-    
+        
 }
 #meme-images{
     display: flex;
@@ -26,9 +36,15 @@ body{
 #instructions h3{
     color: darkred;
 }
-.star{
-    color: blue;
+.icon{
+    font-size: 50px;
+    background: transparent;
     border: none;
-    
+    color: grey;
+
 }
+
+
+
+
 

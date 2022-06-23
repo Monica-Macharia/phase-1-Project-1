@@ -1,8 +1,9 @@
+
 const baseURL = "https://nekos.best/api/v2/hug?amount=7"
 const images = document.getElementById("meme-images")
-//Asking for data from the API
 
 
+//users inputs intergration into the DOM
 const formInputs = document.querySelector("#create-meme")
    formInputs.addEventListener("submit", (e) => {
       //to prevent form default refreshing
@@ -14,7 +15,7 @@ const formInputs = document.querySelector("#create-meme")
       tagCreator(inputObj);
    })
 
-
+ //requesting data from the API
 async function loader(){
      
 return await fetch(baseURL)
@@ -30,23 +31,19 @@ function tagCreator(data){
    const imageTag = document.createElement("img");
    imageTag.src = data.url
    imageTag.className = "meme"
-   //imageTag.innerText = data.anime_name;
- imageDivision.append(imageTag)
-//  const newName = document.createElement("h3")
-//  newName.innerText = 
-//  imageDivision.append(newName)
+   imageDivision.append(imageTag)
  homeImages.append(imageDivision)
 
+ //adding a click function to displayed images
  imageTag.addEventListener("click", () =>{
    document.querySelector(".load-image").src = data.url;
    document.querySelector("#meme-name").innerHTML = data.anime_name;
+
 })
 
 }
 const homeImages = document.querySelector("#meme-images")
 //an Iterator function called displayimages
-
-
 function displayImages(arrayData){
    arrayData.forEach(data => {
    tagCreator(data)
@@ -54,11 +51,30 @@ function displayImages(arrayData){
    });
 }
 
-// function displayImages(arrayData){
-//    for(let i=0; i < arrayData.length; i++){
-//       tagCreator(arrayData[i])
-//    }
-// }
-// const starRating = document.querySelectorAll(
-//    .star)
-// )
+//adding event listeners to the DOM
+const heartIcon = document.getElementById("love");
+
+
+heartIcon.addEventListener("click", () =>{
+   if(heartIcon.style.color == "red"){
+      heartIcon.style.color = "grey"
+       }
+       else{
+       heartIcon.style.color = "red"
+      }
+})
+
+heartIcon.addEventListener("mouseover", () =>{
+   if(heartIcon.style.color == "grey"){
+      heartIcon.style.color = "blue"
+       }
+       else{
+       heartIcon.style.color = "grey"
+      }
+})
+const submitting = document.querySelector("#add");
+
+submitting.addEventListener("click", () =>{
+   alert("nice one!")
+})
+
