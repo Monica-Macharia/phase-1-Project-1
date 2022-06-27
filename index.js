@@ -77,3 +77,10 @@ submitting.addEventListener("click", () =>{
    alert("nice one!")
 })
 
+const loveCount = document.querySelector("#loveCount");
+ function count(){
+    loveCount.value = parseInt(loveCount.value) + 1;
+
+    
+ }
+

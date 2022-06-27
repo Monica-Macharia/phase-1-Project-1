@@ -11,7 +11,7 @@
     <header>
         <h1> Anime Collection </h1>
         <h2> Can you Guess the Name of the Anime? </h2>
-       <button> <h3 id="steps"><em> Click a Gif when done </em></h3></button>
+       <button id="steps"><h3><em> Click a Gif when done </em></h3></button>
     </header>
 
     <div id= "meme-images"> 
@@ -19,29 +19,34 @@
         <!--each image should enter into a new text-box when loaded-->
         <!--add 'click' to GIFs in JS-->
     </div>
-    <div id="instructions">
+    <div id= "instructions">
         <h2><em> ...and the Name is...</em></h2> 
     </div>
     
 <!--Clicked gifs show up here-->
-    <div id = "display-box"> 
+    <div id= "display-box"> 
         <img class ="load-image" />
         <h2 id= "meme-name"></h2>
         </div>
 
  <!--comment section-->
+ 
     <div id="heart">Like!</div>
-        <button id = "love" class= "icon"><i class="fas fa-heart"></i></button>
-                          
-        <!--Create your anime!-->
+        <button id = "love" onclick= "count()" class= "icon"><i class="fas fa-heart"></i>
+    <input id="loveCount" type ="number" value = "0">
+        </button>
+  
+                         
+       <!--Create your anime!-->
         <form id= "create-meme">
             <h2> Add to the collection :) </h2>
             <label for="name"> Name:</label>
             <input type="text" name="name" id="user-name"/>
             <label for="image"> URL:</label>
-            <input type="text" name="URL" id="user-image"/>-->
+            <input type="text" name="URL" id="user-image"/>
             <input type="submit" value= "Let's see!" id="add"/>
         </form>
+
        
         <script type="text/javascript" src="./index.js" charset="utf-8"></script>      
         <script src ="https://kit.fontawesome.com/f6dcf461c1.js"crossorigin= "anonymous"></script>

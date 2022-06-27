@@ -2,15 +2,23 @@
     text-align: center;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: powderblue;
    
+    
+}
+header{
+    background-color: rgba(66, 188, 151, 0.504);
+    padding-top: 25px;
+}
+body{
+    background-color: rgba(29, 116, 86, 0.422);
 }
 h1{
     color: blue;
+    font-weight: 100px;
 }
 #steps{
-    color: fuchsia;
-    font-size: 20px;
+    color: blue;
+    font-size: 15px;
 }
 #create-meme h2{
     color: blue;
@@ -26,7 +34,15 @@ header body{
 #meme-images{
     display: flex;
     justify-content: center;
+    padding-top: 3px;
     
+}
+#steps{
+    background-color: lightslategray;
+    size: 5px;
+}
+#steps h3 em{
+    background-color: lightslategrey;
 }
 .meme{
     height: 140px;
@@ -43,7 +59,17 @@ header body{
     color: grey;
 
 }
-
+#user-name{
+    background-color: white;
+}
+#user-image{
+    background-color: white;
+}
+#add{
+    background-color: violet;
+    font-size: 20px;
+ }
+ 
 
 
 
